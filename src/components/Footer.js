@@ -10,10 +10,12 @@ const Footer = (prop) => {
             <table className='text-primary-300 pl-3 pt-1 ml-8'>
                 {
                     detail.map((value, index) => (
-                        <tr key={index}>
+                      <thead key={index}> 
+                        <tr>
                             <th className='pb-1'>{value.name} ({value.rate})</th>
                             <td className='pl-3'>-<span className='ml-3 text-center'>{value.currency}</span></td>
                         </tr>
+                      </thead>
                     ))
                 }
             </table>
