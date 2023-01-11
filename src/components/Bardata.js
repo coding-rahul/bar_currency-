@@ -2,7 +2,6 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 import Footer from "./Footer";
 
 const Bardata = ({ data, flag }) => {
-  // we can also create dynamic barchart data.
   const detail = [
     {
       currency: 'INR',
