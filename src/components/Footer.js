@@ -23,4 +23,5 @@ const Footer = (prop) => {
         </>
     )
 }
+//y
 export default Footer;
